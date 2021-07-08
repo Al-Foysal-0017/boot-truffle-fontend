@@ -1,0 +1,49 @@
+@import '~antd/dist/antd.css';
+*{
+  /* font-family: 'Encode Sans Expanded', sans-serif; */
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 0.5px;
+}
+
+
+
+.ui.form .field > label {
+  color:  #A3B7A7 !important;
+  margin-left: 7px!important;
+}
+
+.ui.default.dropdown:not(.button)>.text, .ui.dropdown:not(.button)>.default.text {
+  color: #000 !important;
+}
+
+
+
+
+element.style {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  padding-left: 35px;
+  border-radius: 25px!important;
+}
+
+
+.item{
+  display: flex!important;
+  flex-direction: row;
+}
+
+.ui.dropdown .menu>.item:first-child {
+  border-top-width: 0;
+}
+
+ 
+.icon{
+  color: #5A6AF0;
+}
+
+
+
